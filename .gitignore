@@ -1,0 +1,7 @@
+*.bin
+*.elf
+*.map
+*.c.o
+*.S.o
+tags
+firmware.S

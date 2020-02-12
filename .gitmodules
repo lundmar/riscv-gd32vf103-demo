@@ -1,0 +1,3 @@
+[submodule "external/GD32VF103_Firmware_Library"]
+	path = external/GD32VF103_Firmware_Library
+	url = https://github.com/riscv-mcu/GD32VF103_Firmware_Library.git
