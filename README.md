@@ -78,3 +78,11 @@ key + reset key, then unpress reset.
 To flash the firmware simply do:
 
     $ dfu-util -a 0 -d 28e9:0189 -s 0x8000000:mass-erase:force -D firmware.bin
+
+## Documentation
+
+Datasheet:
+ https://gd32mcu.21ic.com/data/documents/shujushouce/GD32VF103_Datasheet_Rev%201.1.pdf
+
+Reference manual:
+ https://gd32mcu.21ic.com/data/documents/shujushouce/GD32VF103_User_Manual_EN_V1.2.pdf
