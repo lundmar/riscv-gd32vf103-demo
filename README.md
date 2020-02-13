@@ -31,6 +31,24 @@ Polos GD32VF103 Alef Board from AnalogLamb:
 
 https://www.analoglamb.com/product/polos-gd32v-alef-board-risc-v-mcu-board
 
+GD32VF103CBT6 features the following:
+
+ * 128KB FLASH and 32KB RAM
+ * 4 x universal 16-bit timer
+ * 2 x basic 16-bit timer
+ * 1 x advanced 16-bit timer
+ * Watchdog timer
+ * RTC
+ * Systick
+ * 3 x USART
+ * 2 x I2C
+ * 3 x SPI
+ * 2 x I2S
+ * 2 x CAN
+ * 1 x USBFS(OTG)
+ * 2 x ADC(10 channel)
+ * 2 x DAC
+
 ## Toolchain
 
 Use crosstool-ng (see http://crosstool-ng.github.io) to build a modern gcc
