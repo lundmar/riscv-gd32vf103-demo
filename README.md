@@ -58,6 +58,8 @@ Simply install latest version of crosstool-ng and build the "riscv32-unknown-elf
 
 ## How to get source
 
+Use git to clone the main repository but also its submodules.
+
     $ git clone --recurse-submodules https://github.com/lundmar/riscv-gd32vf103-demo.git
 
 ## How to build
@@ -66,6 +68,8 @@ Use your favorite gcc riscv toolchain like so:
 
     $ cd riscv-gd32vf103-demo
     $ make CROSS_COMPILE=riscv32-unknown-elf-
+
+Results in the output file firmware.bin
 
 ## How to flash
 
@@ -86,3 +90,4 @@ Datasheet:
 
 Reference manual:
  https://gd32mcu.21ic.com/data/documents/shujushouce/GD32VF103_User_Manual_EN_V1.2.pdf
+
