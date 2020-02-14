@@ -1,4 +1,4 @@
-# Simple demo on how to boot a modern RISC-V chipset
+# Simple demo of how to boot a modern RISC-V chipset
 
 The source of this firmware demo is carefully crafted to be as simple as
 possible to get a single threaded system up and running on a modern 32 bit
@@ -10,7 +10,7 @@ can keep it simple?
 
 The overall goal of this demo is to minimize the use of assembly language in
 favor of C and use as little as possible of it to get things moving. Also, no
-details are abstracted away and linked to some silly IDE.
+details are abstracted away or tied to some silly IDE.
 
 The code is open source under the modified BSD license  - happy hacking!
 
