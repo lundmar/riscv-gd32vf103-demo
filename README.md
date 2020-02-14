@@ -23,6 +23,41 @@ The demo firmware blinks the D3 LED and writes hello world to USART0!
 It also includes use of the official GD32VF103 driver library from GigaDevice
 which includes examples on how to use every peripheral on the chip.
 
+Example code:
+
+```c
+void main(void)
+{
+    int count = 10;
+
+    /* Initialize system (clocks, power, etc.)*/
+    SystemInit();
+
+    /* Setup LED D3 */
+    setup_blinking_led();
+
+    /* Setup USART0 (115200,8n1) */
+    setup_usart0();
+
+    while(count--)
+    {
+        /* Turn on LED D3 */
+        gpio_bit_set(GPIOC, GPIO_PIN_13);
+        delay_1ms(500);
+
+        /* Turn off LED D3 */
+        gpio_bit_reset(GPIOC, GPIO_PIN_13);
+        delay_1ms(500);
+
+        /* Lets say hello */
+        printf("Hello world!\n");
+    }
+
+    /* Throw environment call exception (system call) */
+    asm volatile("ecall");
+}
+```
+
 ## Hardware
 
 ![Polos Logo](https://www.analoglamb.com/wp-content/uploads/2020/01/polos_gd32vf103_alef_board_00.png)
