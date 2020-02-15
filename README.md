@@ -87,7 +87,7 @@ GD32VF103CBT6 features the following:
 ## Toolchain
 
 Use crosstool-ng (see http://crosstool-ng.github.io) to build a modern gcc
-toolchain that supports the RISC-V flavor (ilp32,ima) of the GD32VF103.
+toolchain that supports the RISC-V flavor (ilp32,imac) of the GD32VF103.
 
 Simply install latest version of crosstool-ng and build the "riscv32-unknown-elf" sample.
 

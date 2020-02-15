@@ -38,14 +38,14 @@ OBJECTS= \
 LSCRIPT=gd32vf103.ld
 
 CFLAGS:=-Wall -g -Wno-main -Wstack-usage=400 -ffreestanding -Wno-unused -nostdlib
-CFLAGS+=-fno-builtin-printf -march=rv32ima -mabi=ilp32 -mcmodel=medany
+CFLAGS+=-fno-builtin-printf -march=rv32imac -mabi=ilp32 -mcmodel=medany
 CFLAGS+=-Iexternal/GD32VF103_Firmware_Library/Firmware/GD32VF103_standard_peripheral/Include
 CFLAGS+=-Iexternal/GD32VF103_Firmware_Library/Firmware/GD32VF103_standard_peripheral
 CFLAGS+=-Iexternal/GD32VF103_Firmware_Library/Template
 CFLAGS+=-Iexternal/GD32VF103_Firmware_Library/Firmware/RISCV/drivers
 CFLAGS+=-DGD32VF103C_START
 ASFLAGS:=$(CFLAGS)
-LDFLAGS:=-T $(LSCRIPT) -Wl,-gc-sections -Wl,-Map=firmware.map -nostdlib -march=rv32ima -mabi=ilp32 -mcmodel=medany -ffunction-sections -fdata-sections
+LDFLAGS:=-T $(LSCRIPT) -Wl,-gc-sections -Wl,-Map=firmware.map -nostdlib -march=rv32imac -mabi=ilp32 -mcmodel=medany -ffunction-sections -fdata-sections
 
 all: $(SOURCES) firmware.bin
 
