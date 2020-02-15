@@ -1,5 +1,5 @@
 #
-# Makefile for simple RISC-V boot code for the GD32vf103 chip
+# Makefile for simple RISC-V boot code for the GD32VF103 chip
 # 
 # Example makes use of the GD32VF103 firmware library
 #
@@ -46,7 +46,8 @@ CFLAGS+=-Iexternal/GD32VF103_Firmware_Library/Template
 CFLAGS+=-Iexternal/GD32VF103_Firmware_Library/Firmware/RISCV/drivers
 CFLAGS+=-DGD32VF103C_START
 ASFLAGS:=$(CFLAGS)
-LDFLAGS:=-T $(LSCRIPT) -Wl,-gc-sections -Wl,-Map=firmware.map -nostdlib -march=rv32imac -mabi=ilp32 -mcmodel=medany -ffunction-sections -fdata-sections
+LDFLAGS:=-T $(LSCRIPT) -Wl,-gc-sections -Wl,-Map=firmware.map -nostdlib -march=rv32imac -mabi=ilp32 \
+         -mcmodel=medany -ffunction-sections -fdata-sections
 
 all: $(SOURCES) firmware.bin
 
