@@ -12,6 +12,7 @@ AS=$(CROSS_COMPILE)gcc
 LD=$(CROSS_COMPILE)gcc
 OBJCOPY=$(CROSS_COMPILE)objcopy
 OBJDUMP=$(CROSS_COMPILE)objdump
+SIZE=$(CROSS_COMPILE)size
 
 LIBGCC=${shell ${CC} ${CFLAGS} -print-libgcc-file-name}
 LIBC=${shell ${CC} ${CFLAGS} -print-file-name=libc.a}
@@ -51,6 +52,7 @@ all: $(SOURCES) firmware.bin
 
 firmware.bin: firmware.elf
 	$(OBJCOPY) -O binary $^ $@
+	$(SIZE) $<
 
 firmware.elf: $(OBJECTS) $(LSCRIPT)
 	$(LD) $(LDFLAGS) $(OBJECTS) -o $@ 
