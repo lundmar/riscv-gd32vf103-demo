@@ -1,4 +1,4 @@
-# Simple demo - how to boot a modern RISC-V chipset
+# How to boot a modern RISC-V chipset
 
 The source of this firmware demo is carefully crafted to be as simple as
 possible to get a single threaded system up and running on a modern 32 bit
