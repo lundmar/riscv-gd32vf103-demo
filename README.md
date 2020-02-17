@@ -1,5 +1,7 @@
 # How to boot a modern RISC-V chipset
 
+![RISC-V Website](https://content.riscv.org/wp-content/uploads/2018/09/riscv-logo.png)
+
 The source of this firmware demo is carefully crafted to be as simple as
 possible to get a single threaded system up and running on a modern 32 bit
 RISC-V microcontroller such as the feature rich GD32VF103 from GigaDevice.
@@ -60,7 +62,7 @@ void main(void)
 
 ## Hardware
 
-![Polos Logo](https://www.analoglamb.com/wp-content/uploads/2020/01/polos_gd32vf103_alef_board_00.png)
+![Polos GD32VF103 Alef Board](https://www.analoglamb.com/wp-content/uploads/2020/01/polos_gd32vf103_alef_board_00.png)
 
 Polos GD32VF103 Alef Board from AnalogLamb:
 
