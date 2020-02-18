@@ -29,7 +29,7 @@
  */
 
 /*
- * Simple linker script for the GD32VF103
+ * Simple linker script for the GD32VF103CBT6 chip
  *
  * Authored by martin.lund@keep-it-simple.com
  *
