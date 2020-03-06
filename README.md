@@ -2,9 +2,10 @@
 
 ![RISC-V Website](https://content.riscv.org/wp-content/uploads/2018/09/riscv-logo.png)
 
-The source of this firmware demo is carefully crafted to be as simple as
-possible to get a single threaded system up and running on a modern 32 bit
-RISC-V microcontroller such as the feature rich GD32VF103 from GigaDevice.
+The source of this firmware demo is carefully crafted to demonstrate the
+simplest possible way to boot and get a single threaded system up and running
+on a modern 32 bit RISC-V microcontroller such as the feature rich GD32VF103
+from GigaDevice.
 
 The author is not happy with the complexity nor abstraction level of the
 example code already available from various sources. Why make it hard when you
