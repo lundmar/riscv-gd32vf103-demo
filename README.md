@@ -1,4 +1,4 @@
-# How to boot a modern RISC-V chipset
+# How to boot a modern RISC-V chip
 
 ![RISC-V Website](https://content.riscv.org/wp-content/uploads/2018/09/riscv-logo.png)
 
