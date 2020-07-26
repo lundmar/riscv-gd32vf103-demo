@@ -127,7 +127,7 @@ To flash the firmware simply do:
 
 [GD32VF103 user manual](https://gd32mcu.21ic.com/data/documents/shujushouce/GD32VF103_User_Manual_EN_V1.2.pdf)
 
-[RISC-V ISA specification - Vol I](https://github.com/riscv/riscv-isa-manual/releases/download/draft-20200213-d1811f4/riscv-spec.pdf)
+[RISC-V ISA specification - Vol I](https://riscv.org/specifications/isa-spec-pdf/)
 
-[RISC-V ISA specification - Vol II](https://github.com/riscv/riscv-isa-manual/releases/download/draft-20200213-d1811f4/riscv-privileged.pdf)
+[RISC-V ISA specification - Vol II](https://riscv.org/specifications/privileged-isa/)
 
