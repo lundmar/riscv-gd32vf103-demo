@@ -63,11 +63,11 @@ void main(void)
 
 ## Hardware
 
-![Polos GD32VF103 Alef Board](https://www.analoglamb.com/wp-content/uploads/2020/01/polos_gd32vf103_alef_board_00.png)
+![Polos GD32VF103 Alef Board](https://www.analoglamb.com/wp-content/uploads/2017/07/DEV-RISV0001_Polos-GD32VC-Alef_1.png)
 
 Polos GD32VF103 Alef Board from AnalogLamb:
 
-https://www.analoglamb.com/product/polos-gd32v-alef-board-risc-v-mcu-board
+https://www.analoglamb.com/product/gd32vf-risc-v-mcu-board-polos-gd32vf-alef
 
 GD32VF103CBT6 features the following:
 
